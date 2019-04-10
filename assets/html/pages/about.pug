@@ -1,0 +1,117 @@
+
+//- == Start About Content
+.about-content
+
+  //- ===============================================
+  //-           Start Title Section
+  //- ===============================================
+  // Title Section
+  section
+    +page_title('ABOUT' , 'WHO WE ARE')
+  //- ===============================================
+  //-           End Title Section
+  //- ===============================================
+  
+  //- ===============================================
+  //-           Start Crocal Section
+  //- ===============================================
+  // CROCAL Section
+  section
+    .crocal-section
+      div(class="crocal-title col-lg-6 col-11 text-center mx-auto") 
+        +description_head1(
+        "YOU ARE CROCAL" ,
+        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia and maybe something else."
+        ) 
+      .crocal-content 
+        div(class="container mr-0")
+          .row 
+            div(class="crocal-image col-md-12")
+              img(src="assets/imgs/about_page/about.jpg" data-aos="fade-right")
+  //- ===============================================
+  //-           End Crocal Section
+  //- ===============================================
+  
+  //- ===============================================
+  //-           Start DIFFERENT Section
+  //- ===============================================
+  // DIFFERENT Section
+  section
+    .different-section
+      div(class="container ml-0")
+        .row 
+          div(class="different-content col-lg-8")
+            h2(class="main-title" data-aos="fade-up") WHAT MAKES
+            h2(data-aos="fade-up") US DIFFERENT
+            div(class="row mt-3" data-aos="fade-up")
+              // Different Num 1 
+              +different_detail(
+                '01.' ,
+                'Motivational' ,
+                'Environment'
+              )
+              
+              // Different Num 2 
+              +different_detail(
+                '02.' ,
+                'Kids' ,
+                'Playground'
+              )
+              
+              // Different Num 3 
+              +different_detail(
+                '03.' ,
+                'Modern' ,
+                'Showers'
+              )
+              
+              // Different Num 4 
+              +different_detail(
+                '04.' ,
+                'Personalized' ,
+                'Programs'
+              )
+            div(class="row" data-aos="fade-up")
+              // Different Num 5 
+              +different_detail(
+                '05.' ,
+                'Food and' ,
+                'Smoothie Bar'
+              )
+              
+              // Different Num 6 
+              +different_detail(
+                '06.' ,
+                'Cool' ,
+                'Playlists'
+              )
+              
+              // Different Num 7 
+              +different_detail(
+                '07.' ,
+                'Exceptional' ,
+                'Customer Service'
+              )
+              
+              // Different Num 8 
+              +different_detail(
+                '08.' ,
+                'Large Area and' ,
+                'Free Parking'
+              )
+          div(class="col-lg-4")
+            div(class="description text-left")
+              +description_head3(
+              "COMMUNITY" ,
+              "It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for something else."
+              )
+              +description_head3(
+              "CULTURE" ,
+              "In which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."
+              )
+      
+  //- ===============================================
+  //-           End DIFFERENT Section
+  //- ===============================================
+    
+//- End About Content ==

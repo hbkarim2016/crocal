@@ -1,0 +1,109 @@
+
+// Global Style
+body{
+  color: white;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  *::selection{
+    background-color: $main_hover_color;
+    color:white;
+  }
+  ul{
+    list-style: none;
+  }
+
+  hr{
+    border-top: 1px solid #3b3b3b;
+    width: 100%;
+  }
+  iframe{
+    opacity: 0.2;
+    height: 300px;
+  }
+}
+
+.container{
+  max-width: 95% !important;
+}
+
+.line-main{
+  background-color: $main_hover_color;
+}
+
+.line-title{
+  height: 50px;
+  margin-top: 150px;
+}
+
+
+// = spaces & sizes
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  transition: .3s ease;
+}
+
+h1 , h2 , h3 ,
+h4 , h5 , h6 ,
+p , span {
+  margin-bottom: 0;
+}
+
+p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section{
+  margin-top: 10%;
+}
+
+.section-title{
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.main-title{
+  color: $main_color;
+}
+
+.main-hover-title{
+  color: $main_hover_color;
+}
+
+h1 , h2 , h3 ,
+h4 , h5 , h6{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 65px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 35px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+// = Colors
+p{
+  color: $main_color;
+  font-family: "Open Sans";
+}
+
+// Backgrounds
+.bg-dark-theme{
+  background-color: #161616;
+}

@@ -1,0 +1,26 @@
+//- mixin For Class 
+mixin class_right( class_image , description_title , description_content , hardness_level , duration , calorie_burn )
+  div(class="row mx-0 px-0")
+    div(class="col-lg-6 pl-lg-0")
+      div(class="row description_content_text mx-0 px-0") 
+        h2(class="col-12")= description_title
+        p(class="col-12")= description_content
+      div(class="row description_content_details description_content_details_right mx-0 px-0" data-aos-delay="200" data-aos="fade-left")
+        ul
+          li
+            div
+              i(class="fas fa-tachometer-alt" data-aos="zoom-in" data-aos-delay="500")
+              h5(data-aos="fade-up" data-aos-delay="600") HARDNESS LEVEL
+              h5(class="main-title" data-aos="fade-up" data-aos-delay="700")= hardness_level
+          li
+            div
+              i(class="fas fa-hourglass-half" data-aos="zoom-in" data-aos-delay="550")
+              h5(data-aos="fade-up" data-aos-delay="600") DURATION
+              h5(class="main-title" data-aos="fade-up" data-aos-delay="700")= duration
+          li
+            div
+              i(class="fab fa-font-awesome-flag" data-aos="zoom-in" data-aos-delay="600")
+              h5(data-aos="fade-up" data-aos-delay="650") CALORIE BURN
+              h5(class="main-title" data-aos="fade-up" data-aos-delay="700")= calorie_burn
+      
+    div(class="col-lg-6 pr-lg-0 "+class_image data-aos="fade-right")

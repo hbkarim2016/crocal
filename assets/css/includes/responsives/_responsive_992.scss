@@ -1,0 +1,74 @@
+// Responsive Page Width 992 - 1200
+@media (min-width: 992px) and (max-width: 1200px)
+{
+  // Fonts Sizes
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 35px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+  h4{
+    font-size: 20px;
+  }
+
+  h5{
+    font-size: 17px;
+  }
+  //==========================
+  // Homepage
+  // == Membership Section
+  .membership-section{
+    .membershipDetail{
+      background-color: $main_background;
+      padding: 50px;
+      border: 15px solid #161616;
+    }
+  }
+  // ========================
+  // Classes
+  // == Classes Section
+  .classes-content{
+    section {
+      .class{
+        .description_content_details{
+          ul {
+            li{
+              div {
+                padding: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //========================
+  // Schedule
+  // == Schedule Section
+  .schedule-content{
+    .schedule_section{
+      .tab-content{
+        height: 580px;
+        .tab-pane{
+          ul{
+            li{
+              .schedule_day {
+                margin: 3px;
+                padding: 25px;
+                padding-left: 22px;
+                padding-right: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

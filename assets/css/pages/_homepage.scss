@@ -1,0 +1,151 @@
+
+// == Start Do Some Thing Section Style
+.doSomeThing-section{
+  .head-span{
+    color: white;
+  }
+  .doSomeThing-title{
+    margin-bottom: -45px;
+    z-index: 122;
+    position: relative;
+  }
+  .doSomeThing-image{
+    .doSomeThing-before-image{
+      background: $main_hover_color;
+    }
+  }
+}
+// End Style Section ==
+
+// == Start Location Section Style
+.location-section{
+  .main-title{
+    &:after{
+      content: " ";
+      display: inline-block;
+    }
+  }
+  .location-imageContent{
+    p{
+      width: 490px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .location_content{
+    .locationDetail{
+      color: black;
+      text-align: center;
+      background: $main_hover_color;
+      padding: 60px 0px;
+      border: 2px solid #161616;
+      .locationDetail_title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .locationDetail_content{
+        span{
+          display: block;
+        }
+      }
+    }
+  }
+}
+// End Style Section ==
+
+// == Start Train Types Section
+.trainTypes-section{
+  .section-title{
+    background: rgb(42, 42, 42);
+    h1{
+      padding-top: 15px;
+      &:hover{
+        cursor: pointer;
+        color: $main_hover_color;
+      }
+    }
+  }
+  .trainTypes-content{
+    .trainTypes-imageContent{
+      padding-top: 20%;
+      p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      i{
+        font-size: 25px;
+        color: $main_hover_color;
+        cursor: pointer;
+      }
+    }
+  }
+}
+// End Style Section ==
+
+// == Start Different Section
+.different-section{
+  .different-content{
+    padding-left: 130px;
+    .row{
+      margin-bottom: 40px;
+    }
+    .different-content-item{
+      h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      span{
+        display: block;
+        color:$main_color;
+        font-size: 17px;
+      }
+    }
+    .line-main{
+      height: 50px;
+      margin-bottom: 0;
+    }
+  }
+}
+// End Style Section ==
+
+// == Start Membership Section
+.membership-section{
+  span , i {
+    color: $main_color;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  .membershipDetail{
+    background-color: $main_background;
+    padding: 50px;
+    border: 25px solid #161616;
+  }
+  .membershipDetail_title{
+    h3{
+      color: $main_hover_color;
+      margin: 20px 0;
+    }
+    hr{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  .membershipDetail_content{
+    button{
+      border: none;
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      margin: 20px 0;
+      &:hover{
+        background: white;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+// End Style Section ==

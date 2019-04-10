@@ -1,0 +1,68 @@
+// Responsive Page Width 992 - 1200
+@media (min-width: 768px) and (max-width: 991px)
+{
+  // Fonts Sizes
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+  h5{
+    font-size: 15px;
+  }
+  //==========================
+  // Homepage Page
+  // == TrainType Section
+  .trainTypes-section{
+    .trainTypes-content{
+      .trainTypes-imageContent{
+        padding-top: 5%;
+      }
+    }
+  }
+  // ==========================
+  // == Different Section
+  .different-section{
+    .different-content{
+      padding-left: 0;
+      
+    }
+  }
+  // == Membership Section
+  .membership-section{
+    .membershipDetail{
+      background-color: $main_background;
+      padding: 20px;
+      border: 10px solid #161616;
+    }
+  }
+  // ========================
+  // Classes Page
+  .classes-content{
+     section{
+       .class {
+         margin-bottom: 0;
+      }
+    }
+  }
+  // ========================
+  // Schedule Page
+  .schedule-content{
+    .schedule_section {
+      .tab-content {
+        height: 1140px;
+      }
+    }
+  }
+}

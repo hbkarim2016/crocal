@@ -1,0 +1,762 @@
+
+//- == Start About Content
+.schedule-content
+
+  //- ===============================================
+  //-           Start Title Section
+  //- ===============================================
+  // Title Section
+  section
+    +page_title('SCHEDULE' , 'CHECK AND CHOOSE')
+  //- ===============================================
+  //-           End Title Section
+  //- ===============================================
+  
+  //- ===============================================
+  //-           Start Crocal Section
+  //- ===============================================
+  // CROCAL Section
+  section
+    .schedule_section
+      
+      .container
+        // Schedule Links   
+        ul(class="nav justify-content-center row" id="myTab" role="tablist")
+          li(class="nav-item")
+            a(
+              class="nav-link active" 
+              id="monday-tab" 
+              data-toggle="tab" 
+              href="#monday" role="tab" 
+              aria-controls="monday" 
+              aria-selected="true"
+              ) 
+              h3(class="text-light text-center") MONDAY
+        
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="tuesday-tab" 
+              data-toggle="tab" 
+              href="#tuesday" 
+              role="tab" 
+              aria-controls="tuesday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") TUESDAY
+          
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="wednesday-tab" 
+              data-toggle="tab" 
+              href="#wednesday" 
+              role="tab" 
+              aria-controls="wednesday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") WEDNESDAY
+          
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="thursday-tab" 
+              data-toggle="tab" 
+              href="#thursday" 
+              role="tab" 
+              aria-controls="thursday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") THURSDAY
+              
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="friday-tab" 
+              data-toggle="tab" 
+              href="#friday" 
+              role="tab" 
+              aria-controls="friday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") FRIDAY
+              
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="saturday-tab" 
+              data-toggle="tab" 
+              href="#saturday" 
+              role="tab" 
+              aria-controls="saturday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") SATURDAY
+              
+          li(class="nav-item")
+            a(
+              class="nav-link" 
+              id="sunday-tab" 
+              data-toggle="tab" 
+              href="#sunday" 
+              role="tab" 
+              aria-controls="sunday" 
+              aria-selected="false"
+              ) 
+              h3(class="text-light text-center") SUNDAY
+
+        // Schedule Content 
+        div(class="tab-content" id="myTabContent")
+          // Monday Section
+          div(class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab")             
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+          div(class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+          
+          
+          div(class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+        
+          
+          div(class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+          
+          div(class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+          
+          div(class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+          
+          div(class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab") 
+            ul(class="justify-content-center row")
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "09:40AM" ,
+                  "400 Minutes" ,
+                  "Marcell Mungo"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "10:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "SWIMMING" ,
+                  "01:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+                
+            
+            ul(class="justify-content-center row")
+              
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "YOGA" ,
+                  "02:40PM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "KICKBOXING" ,
+                  "08:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+              li
+                +schedule_day(
+                  "CYCLING" ,
+                  "11:40AM" ,
+                  "400 Minutes" ,
+                  "Roberta Gaylor"
+                )
+          
+    // Book 
+    +book_section(
+      "BOOK YOUR FIRST CLASS NOW" ,
+      "You can join us for your first class for free"
+    )
+    
+  //- ===============================================
+  //-           End Crocal Section
+  //- ===============================================

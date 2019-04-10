@@ -1,0 +1,249 @@
+
+//- == Start Homepage Content
+.homepage-content
+  
+  //- ===============================================
+  //-           Start Do Some Thing Section
+  //- ===============================================
+  // == | Start Do Some Thing Section | == 
+  section
+    .doSomeThing-section
+      // | Do Some Thing Title | 
+      div(class="doSomeThing-title container")
+        h1(class="main-title") DO SOMETHING TODAY
+        h1(class="content-title") THAT YOUR FUTURE SELF 
+        h1(class="content-title") WILL THANK YOU FOR
+      
+      // | Do Some Thing Image | 
+      .doSomeThing-content
+        // = Image = 
+        div(class="doSomeThing-image ml-0 container")
+          .row
+            div(class="col-xl-5 col-lg-2 col-1 px-0 doSomeThing-before-image" data-aos="fade-right" data-aos-delay="1500")
+            img(class="col-xl-7 col-lg-10 col-11 px-0" src="assets/imgs/doSomeThing_section/home_img_1.jpg" alt="home" data-aos="zoom-in-left" data-aos-delay="1500")
+  // == | End Do Some Thing Section | == 
+  //- ===============================================
+  //-           End Do Some Thing Section
+  //- ===============================================
+
+  //- ===============================================
+  //-           start Location Section
+  //- ===============================================
+  // == | Start Location Section | ==
+  section
+    div(class="location-section container")
+      // = Image Content = 
+      div(class="location-imageContent")
+        div(class="location-imageTitle")
+          .d-block
+            h3(class="main-title d-inline-block") MODERN 
+              h3(class="head-span d-inline-block") GYM EQUIPAMENT.
+          .d-block
+            h3(class="main-title d-inline-block") GROUP 
+              h3(class="head-span d-inline-block") FITNESS CLASSES.
+          .d-block
+            h3(class="main-title d-inline-block") FLEXIBLE 
+              h3(class="head-span d-inline-block") PRICING.
+          .d-block
+            h3(class="main-title d-inline-block") NO 
+              h3(class="head-span d-inline-block") CONTRACT.
+        
+      div(class="row")
+        div(class="location-imageContent col-lg-6")
+          p(class="pr-5") It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+        div(class="col-lg-6")  
+          // Location Title 
+          div(class="section-title mx-0 container") 
+            .row
+              h1 LOCATIONS
+          // Location Content
+          div(class="location_content mx-0 container")
+            div(class="row")
+              // Location CHICAGO 
+              +location_detail(
+                'CHICAGO' ,
+                '38 Oatland Avenue' ,
+                '283020' ,
+                '0800 838 0283'
+              )
+              
+              // Location NEW YORK 
+              +location_detail(
+                'NEW YORK' ,
+                '38 Oatland Avenue' ,
+                '283020' ,
+                '0800 838 0283'
+              )
+            .row
+              // Location LOS ANGELES 
+              +location_detail(
+                'LOS ANGELES' ,
+                '9 Farlea Avenue' ,
+                '283020' ,
+                '0800 838 0283'
+              )
+              
+              // Location PHILADELPHIA 
+              +location_detail(
+                'PHILADELPHIA' ,
+                '29 Norman Avenue' ,
+                '283020' ,
+                '0800 838 0283'
+              )
+            
+  // == | End Location Section | == 
+  //- ===============================================
+  //-           End Location Section
+  //- ===============================================
+
+  //- ===============================================
+  //-           start Train Types Section
+  //- ===============================================
+  // == | Start Train Types Section | ==
+  section
+    div(class="trainTypes-section" )
+      div(class="container mr-0" data-aos="fade-right")
+        // Train Type Title 
+        div(class="section-title row")
+          div(class="trainTypes-titleLeft col-md-4 text-center")
+            h1(data-aos="fade-down" data-aos-delay="100") PILATES
+            h1(data-aos="fade-down" data-aos-delay="200") YOGA
+          div(class="trainTypes-titleCenter col-md-4 text-center")
+            h1(data-aos="fade-down" data-aos-delay="300") CYCLING
+            h1(data-aos="fade-down" data-aos-delay="400") ZUMPA
+          div(class="trainTypes-titleRight col-md-4 text-center")
+            h1(data-aos="fade-down" data-aos-delay="500") KICKBOXING
+            h1(data-aos="fade-down" data-aos-delay="600") SWIMMING
+      // Train Type Content 
+      div(class="trainTypes-content container ml-0")
+        .row
+          div(class="trainTypes-image col-lg-9 px-0")
+            img(src="assets/imgs/trainType_section/trainType_img.jpg" class="w-100" alt="train Type")
+          div(class="trainTypes-imageContent text-center col-lg-3")
+            h3(class="main-title") OUR TRAINERS ARE 
+            h3 THE BEST IN TOWN 
+            p It is a paradisematic country in which roasted and cool
+            i(class="fas fa-arrow-circle-right")
+  // == | End Train Types Section | == 
+  //- ===============================================
+  //-           End Train Types Section
+  //- ===============================================
+
+  //- ===============================================
+  //-           start Different Section
+  //- ===============================================
+  // == | Start Different Section | ==
+  section
+    .different-section
+      div(class="container mr-0")
+        .row
+          div(class="section-title px-0 col-lg-3")
+            h2(class="main-title") WHAT MAKES
+            h2 US DIFFERENT
+          div(class="different-content col-lg-9")
+            .row
+              // Different Num 1 
+              +different_detail(
+                '01.' ,
+                'Motivational' ,
+                'Environment'
+              )
+              
+              // Different Num 2 
+              +different_detail(
+                '02.' ,
+                'Kids' ,
+                'Playground'
+              )
+              
+              // Different Num 3 
+              +different_detail(
+                '03.' ,
+                'Modern' ,
+                'Showers'
+              )
+              
+              // Different Num 4 
+              +different_detail(
+                '04.' ,
+                'Personalized' ,
+                'Programs'
+              )
+            .row
+              // Different Num 5 
+              +different_detail(
+                '05.' ,
+                'Food and' ,
+                'Smoothie Bar'
+              )
+              
+              // Different Num 6 
+              +different_detail(
+                '06.' ,
+                'Cool' ,
+                'Playlists'
+              )
+              
+              // Different Num 7 
+              +different_detail(
+                '07.' ,
+                'Exceptional' ,
+                'Customer Service'
+              )
+              
+              // Different Num 8 
+              +different_detail(
+                '08.' ,
+                'Large Area and' ,
+                'Free Parking'
+              )
+            div(class="line-main row" data-aos="zoom-in-left")
+          
+  // == | End Different Section | == 
+  //- ===============================================
+  //-           End Different Section
+  //- ===============================================
+
+  //- ===============================================
+  //-           start Membership Section
+  //- ===============================================
+  // == | Start Membership Section | ==
+  section
+    .membership-section
+      div(class="section-title text-center")
+        h2(class="main-title") MEMBERSHIPS
+        h2 OPTIONS
+      div(class="membership-content container")
+        .row
+          // 10 Classes 
+          +membership_detail(
+            '10 CLASSES' , 
+            '$25' ,
+            'Access 10 Classes' ,
+            'Shower Room' ,
+            'Free Parking'
+          )
+          
+          // 1 Month 
+          +membership_detail(
+            '1 MONTH' , 
+            '$59/month' ,
+            'Unlimited Access' ,
+            'Private Shower Room' ,
+            'Free Parking'
+          )
+          
+          // 12 Months 
+          +membership_detail(
+            '12 MONTHS' , 
+            '$52/month' ,
+            'Unlimited Access' ,
+            'Private Shower Room' ,
+            'Free Parking'
+          )
+        
+  // == | End Membership Section | == 
+  //- ===============================================
+  //-           End Membership Section
+  //- ===============================================
+//- == End Homepage Content

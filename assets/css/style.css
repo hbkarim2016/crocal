@@ -1,0 +1,654 @@
+body {
+  color: white;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+body *::selection {
+  background-color: #ffad33;
+  color: white;
+}
+body ul {
+  list-style: none;
+}
+body hr {
+  border-top: 1px solid #3b3b3b;
+  width: 100%;
+}
+body iframe {
+  opacity: 0.2;
+  height: 300px;
+}
+
+.container {
+  max-width: 95% !important;
+}
+
+.line-main {
+  background-color: #ffad33;
+}
+
+.line-title {
+  height: 50px;
+  margin-top: 150px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  transition: 0.3s ease;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p, span {
+  margin-bottom: 0;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section {
+  margin-top: 10%;
+}
+
+.section-title {
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.main-title {
+  color: #a8a8a8;
+}
+
+.main-hover-title {
+  color: #ffad33;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  color: #a8a8a8;
+  font-family: "Open Sans";
+}
+
+.bg-dark-theme {
+  background-color: #161616;
+}
+
+@keyframes width_animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35px;
+  }
+}
+.join_mood {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.join_mood:hover {
+  background-color: #ffad33;
+}
+
+.preloader-page {
+  padding-top: 16%;
+  height: -webkit-fill-available;
+  position: fixed;
+  z-index: 999;
+}
+
+header .navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .navbar .navbar-brand {
+  color: white;
+}
+header .navbar .navbar-brand p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header .navbar .navbar-toggler {
+  color: #a8a8a8;
+}
+header .navbar .navbar-toggler:hover, header .navbar .navbar-toggler:active {
+  font-weight: bold;
+  color: #ffad33;
+}
+header .navbar .nav-link {
+  color: #a8a8a8;
+  font-weight: bold;
+}
+header .navbar .nav-link:hover {
+  color: #ffad33;
+}
+header .navbar .nav-link:hover:after {
+  content: " ";
+  background: #ffad33;
+  width: 35px;
+  height: 3px;
+  position: absolute;
+  display: block;
+  animation: width_animation 0.3s ease;
+}
+header .navbar .link_active {
+  color: #ffad33;
+}
+header .navbar .link_active:after {
+  content: " ";
+  background: #ffad33;
+  width: 35px;
+  height: 3px;
+  position: absolute;
+  display: block;
+}
+header .model_body {
+  padding: 10%;
+}
+header .model_body h2 {
+  color: #ffad33;
+}
+header .model_body input, header .model_body textarea, header .model_body select {
+  border: 0.5px solid #a8a8a8;
+  outline: none;
+}
+header .model_body input:focus, header .model_body textarea:focus, header .model_body select:focus {
+  background-color: #161616;
+  color: #a8a8a8;
+  border-color: #ffad33;
+  outline: none;
+  transition: none;
+  box-shadow: none;
+}
+
+.doSomeThing-section .head-span {
+  color: white;
+}
+.doSomeThing-section .doSomeThing-title {
+  margin-bottom: -45px;
+  z-index: 122;
+  position: relative;
+}
+.doSomeThing-section .doSomeThing-image .doSomeThing-before-image {
+  background: #ffad33;
+}
+
+.location-section .main-title:after {
+  content: " ";
+  display: inline-block;
+}
+.location-section .location-imageContent p {
+  width: 490px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.location-section .location_content .locationDetail {
+  color: black;
+  text-align: center;
+  background: #ffad33;
+  padding: 60px 0px;
+  border: 2px solid #161616;
+}
+.location-section .location_content .locationDetail .locationDetail_title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.location-section .location_content .locationDetail .locationDetail_content span {
+  display: block;
+}
+
+.trainTypes-section .section-title {
+  background: #2a2a2a;
+}
+.trainTypes-section .section-title h1 {
+  padding-top: 15px;
+}
+.trainTypes-section .section-title h1:hover {
+  cursor: pointer;
+  color: #ffad33;
+}
+.trainTypes-section .trainTypes-content .trainTypes-imageContent {
+  padding-top: 20%;
+}
+.trainTypes-section .trainTypes-content .trainTypes-imageContent p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.trainTypes-section .trainTypes-content .trainTypes-imageContent i {
+  font-size: 25px;
+  color: #ffad33;
+  cursor: pointer;
+}
+
+.different-section .different-content {
+  padding-left: 130px;
+}
+.different-section .different-content .row {
+  margin-bottom: 40px;
+}
+.different-section .different-content .different-content-item h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.different-section .different-content .different-content-item span {
+  display: block;
+  color: #a8a8a8;
+  font-size: 17px;
+}
+.different-section .different-content .line-main {
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.membership-section span, .membership-section i {
+  color: #a8a8a8;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.membership-section .membershipDetail {
+  background-color: #2a2a2a;
+  padding: 50px;
+  border: 25px solid #161616;
+}
+.membership-section .membershipDetail_title h3 {
+  color: #ffad33;
+  margin: 20px 0;
+}
+.membership-section .membershipDetail_title hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.membership-section .membershipDetail_content button {
+  border: none;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  margin: 20px 0;
+}
+.membership-section .membershipDetail_content button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.about-content .crocal-section .crocal-title {
+  padding-bottom: 10%;
+}
+.about-content .crocal-section .crocal-content .row {
+  background-color: #ffad33;
+}
+.about-content .crocal-section .crocal-content .row .crocal-image {
+  padding-right: 60px;
+  padding-left: 0;
+}
+.about-content .crocal-section .crocal-content .row .crocal-image img {
+  width: 100%;
+}
+.about-content .different-section .description {
+  padding-left: 20px;
+}
+.about-content .different-section .description h3 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+.about-content .different-section .different-content {
+  background-color: #2a2a2a;
+  padding: 60px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-right: 0;
+}
+.about-content .different-section .different-content .different-content-item h1 {
+  color: black;
+}
+
+.classes-content section .class {
+  margin-bottom: 200px;
+}
+.classes-content section .class img {
+  width: 100%;
+}
+.classes-content section .class .background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.classes-content section .class .background_img1 {
+  background-image: url("../imgs/classes_page/class_img1.jpg");
+}
+.classes-content section .class .background_img2 {
+  background-image: url("../imgs/classes_page/class_img2.jpg");
+}
+.classes-content section .class .background_img3 {
+  background-image: url("../imgs/classes_page/class_img3.jpg");
+}
+.classes-content section .class .background_img4 {
+  background-image: url("../imgs/classes_page/class_img4.jpg");
+}
+.classes-content section .class .background_img5 {
+  background-image: url("../imgs/classes_page/class_img5.jpg");
+}
+.classes-content section .class .background_img6 {
+  background-image: url("../imgs/classes_page/class_img6.jpg");
+}
+.classes-content section .class .description_content_text {
+  padding: 60px !important;
+}
+.classes-content section .class .description_content_text h2 {
+  padding: 0;
+  padding-bottom: 30px;
+}
+.classes-content section .class .description_content_text p {
+  padding: 0;
+}
+.classes-content section .class .description_content_details_left {
+  margin-left: 60px !important;
+}
+.classes-content section .class .description_content_details_right {
+  margin-right: 60px !important;
+  justify-content: flex-end;
+}
+.classes-content section .class .description_content_details {
+  margin-bottom: 60px;
+  background-color: #2a2a2a;
+}
+.classes-content section .class .description_content_details ul li {
+  display: inline-block;
+}
+.classes-content section .class .description_content_details ul li div {
+  text-align: center;
+  padding: 30px;
+}
+.classes-content section .class .description_content_details ul li div i {
+  color: #ffad33;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.schedule-content .schedule_section .nav li .active h3 {
+  border-bottom: 4px solid #ffad33;
+  padding-bottom: 4px;
+}
+.schedule-content .schedule_section .tab-content {
+  height: 680px;
+}
+.schedule-content .schedule_section .tab-content .tab-pane {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.schedule-content .schedule_section .tab-content .tab-pane ul {
+  display: flex;
+  margin-bottom: 0;
+}
+.schedule-content .schedule_section .tab-content .tab-pane ul li {
+  display: inline-block;
+}
+.schedule-content .schedule_section .tab-content .tab-pane ul li .schedule_day {
+  margin: 5px;
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #2a2a2a;
+}
+.schedule-content .schedule_section .tab-content .tab-pane ul li .schedule_day .schedule_line {
+  border-top: 2px solid black;
+  width: 40px;
+}
+
+.location-content .location_section .location_map {
+  height: 400px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: black;
+  margin-top: 10%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+footer .footer ul {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer .footer ul li {
+  display: inline-block;
+  width: 150px;
+  margin-right: 30px;
+}
+footer .footer ul li img {
+  width: 100%;
+}
+footer .footer .line-main {
+  width: 70%;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+footer .footer .line-main li {
+  width: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+footer .footer .line-main li i {
+  font-size: 30px;
+  color: black;
+}
+footer .footer .line-main li i:hover {
+  cursor: pointer;
+  color: white;
+}
+footer .footer .copyRight {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+footer .footer .copyRight span {
+  color: #a8a8a8;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  .membership-section .membershipDetail {
+    background-color: #2a2a2a;
+    padding: 50px;
+    border: 15px solid #161616;
+  }
+
+  .classes-content section .class .description_content_details ul li div {
+    padding: 20px;
+  }
+
+  .schedule-content .schedule_section .tab-content {
+    height: 580px;
+  }
+  .schedule-content .schedule_section .tab-content .tab-pane ul li .schedule_day {
+    margin: 3px;
+    padding: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .trainTypes-section .trainTypes-content .trainTypes-imageContent {
+    padding-top: 5%;
+  }
+
+  .different-section .different-content {
+    padding-left: 0;
+  }
+
+  .membership-section .membershipDetail {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border: 10px solid #161616;
+  }
+
+  .classes-content section .class {
+    margin-bottom: 0;
+  }
+
+  .schedule-content .schedule_section .tab-content {
+    height: 1140px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .doSomeThing-image {
+    max-width: 100% !important;
+  }
+
+  .location-imageContent p {
+    padding-right: 0 !important;
+    width: auto !important;
+  }
+
+  .trainTypes-section .trainTypes-content .trainTypes-imageContent {
+    padding-top: 5%;
+  }
+
+  .different-section .different-content {
+    padding-left: 0;
+  }
+  .different-section .different-content .row {
+    margin-bottom: 0;
+  }
+  .different-section .different-content .line-main {
+    margin-top: 50px;
+  }
+
+  .membership-section .membershipDetail {
+    padding: 50px;
+    border: 15px solid #161616;
+  }
+
+  .classes-content section .class {
+    margin-bottom: 0;
+  }
+  .classes-content section .class .description_content_text {
+    padding: 0 !important;
+  }
+  .classes-content section .class .description_content_text h2 {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .classes-content section .class .description_content_text p {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .classes-content section .class .description_content_details_left {
+    margin-left: 0 !important;
+  }
+  .classes-content section .class .description_content_details_right {
+    margin-right: 0 !important;
+  }
+  .classes-content section .class .description_content_details ul {
+    width: 100%;
+  }
+  .classes-content section .class .description_content_details ul li {
+    display: block;
+  }
+
+  .schedule-content .schedule_section .tab-content {
+    height: 3100px;
+  }
+
+  .location-content .location_section .location_map {
+    height: 250px;
+  }
+
+  .parterers img {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

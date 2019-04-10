@@ -1,0 +1,16 @@
+//- Mixin for location map 
+mixin location_map( location_map , location_title , location_address , location_address_time , location_phone , location_phone_time , location_phone2 , location_phone2_time )
+  div(class="col-lg-12 mb-5 pb-5")
+    div(class="location_map "+location_map)
+      div(class="map")
+    div(class="map_content")
+      h3(class="mt-3 mb-5")= location_title
+      .row
+        div(class="col-6")
+          p(class="m-0 p-0")= location_address
+          p(class="m-0 p-0")= location_phone
+          p(class="m-0 p-0")= location_phone2
+        div(class="col-6")
+          p(class="m-0 p-0")= location_address_time
+          p(class="m-0 p-0")= location_phone_time
+          p(class="m-0 p-0")= location_phone2_time

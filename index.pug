@@ -1,0 +1,55 @@
+doctype
+
+//- Includes Mixins ==
+//- =1= Locations
+include assets/html/components/locations/location-details
+//- =2= Differents
+include assets/html/components/differents/different-details
+//- =3= Memberships
+include assets/html/components/memberships/membership-details
+//- =4= Title Page
+include assets/html/components/pages_titles/title
+//- =5= Description
+include assets/html/components/descriptions/_description_1
+//- =6= Description
+include assets/html/components/descriptions/_description_3
+//- =7= Classes Left
+include assets/html/components/classes/_class_left
+//- =8= Classes Right
+include assets/html/components/classes/_class_right
+//- =8= Book
+include assets/html/components/book_section/_book
+//- =9= Schedule Days
+include assets/html/components/schedule_days/_schedule_day
+//- =10= Location Map
+include assets/html/components/locations_maps/location_map
+//- ==================
+
+html
+  head
+    include assets/html/includes/_head
+  body(class="bg-dark-theme doNicescroll")
+    // == Preloader == 
+    include assets/html/includes/_preloader
+    // == Header == 
+    include assets/html/includes/_header
+
+    // == Content == 
+
+    include assets/html/pages/_homepage
+
+    include assets/html/pages/about
+
+    include assets/html/pages/_classes
+
+    include assets/html/pages/_schedule
+
+    include assets/html/pages/_location
+    
+    include assets/html/pages/_error
+    
+    // == Footer == 
+    include assets/html/includes/_footer
+
+    //- Scripts
+    include assets/html/includes/_scripts

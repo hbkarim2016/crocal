@@ -1,0 +1,8 @@
+//- Mixin For schedule Day 
+mixin schedule_day( schedule_title , schedule_time , schedule_minute , schedule_do )
+  div(class="schedule_day text-center")
+    h5= schedule_title
+    h5(class="main-title")= schedule_time
+    hr(class="schedule_line mx-auto")
+    p= schedule_minute
+    p= schedule_do

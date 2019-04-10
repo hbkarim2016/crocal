@@ -1,0 +1,42 @@
+.about-content
+{  // Crocal Section
+  .crocal-section{
+    .crocal-title{
+      padding-bottom: 10%;
+    }
+    .crocal-content{
+      .row{
+        background-color: $main_hover_color;
+        .crocal-image{
+          padding-right: 60px;
+          padding-left: 0;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  // Different Section
+  .different-section{
+    .description{
+      padding-left: 20px;
+      h3{
+        padding-top: 60px;
+        padding-bottom: 10px;
+      }
+    }
+    .different-content{
+      background-color: $main_background;
+      padding: 60px;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      padding-right: 0;
+      .different-content-item{
+        h1{
+          color: black;
+        }
+      }
+    }
+  }
+}

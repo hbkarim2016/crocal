@@ -1,0 +1,12 @@
+.join_mood{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  &:hover{
+    background-color: $main_hover_color;
+  }
+}

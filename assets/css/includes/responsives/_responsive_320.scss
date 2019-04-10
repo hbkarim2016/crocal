@@ -1,0 +1,128 @@
+// Responsive Page Width 992 - 1200
+@media (min-width: 320px) and (max-width: 767px)
+{
+  // Fonts Sizes
+  h1{
+    font-size: 28px;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+  h5{
+    font-size: 15px;
+  }
+  //==========================
+  // Homepage Page
+  // == Do Something
+  .doSomeThing-image{
+    max-width: 100% !important;
+  }
+  // == location
+  .location-imageContent{
+    p{
+      padding-right: 0 !important;
+      width: auto !important;
+    }
+  }
+  // == TrainType Section
+  .trainTypes-section{
+    .trainTypes-content{
+      .trainTypes-imageContent{
+        padding-top: 5%;
+      }
+    }
+  }
+
+  // == Different Section
+  .different-section{
+    .different-content{
+      padding-left: 0;
+      .row{
+        margin-bottom: 0;
+      }
+      .line-main{
+        margin-top: 50px;
+      }
+    }
+  }
+  // == Membership Section
+  .membership-section{
+    .membershipDetail{
+      padding: 50px;
+      border: 15px solid #161616;
+    }
+  }
+  // ========================
+  // Classes Page
+  .classes-content{
+    section{
+      .class{
+        margin-bottom:0;
+
+        .description_content_text{
+          padding: 0 !important;
+          h2{
+            padding: 0;
+            padding-bottom: 30px;
+          }
+          p{
+            padding: 0;
+            margin-bottom: 20px;
+          }
+        }
+        .description_content_details_left{
+          margin-left: 0 !important;
+        }
+        .description_content_details_right{
+          margin-right: 0 !important;
+
+        }
+        .description_content_details{
+
+          ul{
+            width: 100%;
+            li{
+              display: block
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // ========================
+  // Schedule Page
+  .schedule-content{
+    .schedule_section {
+      .tab-content {
+        height: 3100px;
+      }
+    }
+  }
+  // ========================
+  // Location
+  .location-content {
+    .location_section {
+      .location_map {
+        height: 250px;
+      }
+    }
+  }
+  // ========================
+  // Footer
+  .parterers{
+    img{
+      padding: 20px;
+    }
+  }
+}

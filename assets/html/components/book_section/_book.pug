@@ -1,0 +1,8 @@
+//- Mixin For Book Section
+mixin book_section(book_title , book_content)
+  .container
+    .row
+      div(class="text-center mx-auto")
+        h3= book_title
+        p= book_content
+        button(class="join_mood") JOIN NOW

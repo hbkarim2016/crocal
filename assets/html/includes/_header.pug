@@ -1,0 +1,65 @@
+
+header
+  nav(class="navbar navbar-expand-lg bg-dark-theme")
+    .container
+      a(class="navbar-brand" href="/") 
+        h4(class="head-span") CROCAL
+        p Gym and Fitness
+      button(
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+        )
+        span(class="fas fa-align-justify")
+      div(class="collapse navbar-collapse justify-content-end" id="navbarNav")
+        ul(class="navbar-nav")
+          li(class="nav-item active")
+            a(class="nav-link about_link" href="?page=about") ABOUT 
+              span(class="sr-only") (current)
+          li(class="nav-item")
+            a(class="nav-link classes_link" href="?page=classes") CLASSES
+          li(class="nav-item")
+            a(class="nav-link schedule_link" href="?page=schedule") SCHEDULE
+          li(class="nav-item")
+            a(class="nav-link location_link" href="?page=location") LOCATIONS
+          li(class="nav-item")
+            a(class="nav-link" href="#join" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo") JOIN US
+            div(
+                class="modal fade" 
+                id="exampleModal" 
+                tabindex="-1" 
+                role="dialog" 
+                aria-labelledby="exampleModalLabel" 
+                aria-hidden="true"
+              )
+              div(class="modal-dialog" role="document")
+                div(class="bg-dark-theme modal-content model_body")
+                  div(class="text-center")
+                    h2(id="exampleModalLabel") JOIN NOW        
+                    p(class="w-100 d-block text-center") You can join us for your first class for free  
+                  div(class="modal-body")
+                    form
+                      div(class="input-group mb-3")
+                        select(class="custom-select bg-dark-theme title_main m-2" id="inputGroupSelect01")
+                          option(selected) Choose Location
+                          option(value="1") Chicago
+                          option(value="2") New York
+                          option(value="3") Los Angeles
+                        select(class="custom-select bg-dark-theme title_main m-2" id="inputGroupSelect01")
+                          option(selected) Choose Membership
+                          option(value="1") Free 1 Class
+                          option(value="2") 10 Classes
+                          option(value="3") 1 Month
+                      div(class="input-group")
+                        input(class="bg-dark-theme form-control m-2 title_main" type="text" value="Full Name")
+                        input(class="bg-dark-theme form-control m-2 title_main" type="text" value="Email Address")
+                      div(class="input-group mb-3")
+                        textarea(class="bg-dark-theme form-control m-2 title_main" rows="5" placeholder="Additional Notes")
+                  div(class="text-center mx-auto")
+                    button(type="button" class="btn join_mood" data-dismiss="modal") CLOSE
+                    button(type="button" class="btn join_mood") JOIN
+                  

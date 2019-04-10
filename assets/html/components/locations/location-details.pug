@@ -1,0 +1,9 @@
+//- Mixin To Show Location Details
+mixin location_detail(detail_title , detail_content_address , detail_content_code , detail_content_phone)
+  div(class="col-md-6 locationDetail")
+    .locationDetail_title
+      h3= detail_title 
+    .locationDetail_content
+      span= detail_content_address
+      span= detail_content_code
+      span= detail_content_phone

@@ -1,0 +1,39 @@
+.schedule-content{
+  .schedule_section{
+    .nav{
+      li{
+        .active{
+          h3{
+            border-bottom: 4px solid $main_hover_color;
+            padding-bottom: 4px;
+          }
+        }
+      }
+    }
+    .tab-content{
+      height:680px;
+      .tab-pane{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        ul{
+          display: flex;
+          margin-bottom: 0;
+          li{
+            display: inline-block;
+            .schedule_day{
+              margin: 5px;
+              padding: 40px;
+              padding-left: 50px;
+              padding-right: 50px;
+              background-color: $main_background;
+              .schedule_line{
+                border-top: 2px solid black;
+                width: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

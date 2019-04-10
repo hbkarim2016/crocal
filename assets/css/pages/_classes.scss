@@ -1,0 +1,69 @@
+.classes-content{
+  section{
+    .class{
+      margin-bottom: 200px;
+      img{
+      width: 100%;
+      }
+      .background{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .background_img1{
+        background-image: url("../imgs/classes_page/class_img1.jpg");
+      }
+      .background_img2{
+        background-image: url("../imgs/classes_page/class_img2.jpg");
+      }
+      .background_img3{
+        background-image: url("../imgs/classes_page/class_img3.jpg");
+      }
+      .background_img4{
+        background-image: url("../imgs/classes_page/class_img4.jpg");
+      }
+      .background_img5{
+        background-image: url("../imgs/classes_page/class_img5.jpg");
+      }
+      .background_img6{
+        background-image: url("../imgs/classes_page/class_img6.jpg");
+      }
+      .description_content_text{
+        padding: 60px !important;
+        h2{
+          padding: 0;
+          padding-bottom: 30px;
+        }
+        p{
+          padding: 0;
+        }
+      }
+      .description_content_details_left{
+        margin-left: 60px !important;
+      }
+      .description_content_details_right{
+        margin-right: 60px !important;
+        justify-content: flex-end;
+
+      }
+      .description_content_details{
+        margin-bottom: 60px;
+        background-color: $main_background;
+        ul{
+          li{
+            display: inline-block;
+            div{
+              text-align: center;
+              padding: 30px;
+              i{
+                color: $main_hover_color;
+                font-size: 30px;
+                padding: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

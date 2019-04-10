@@ -1,0 +1,66 @@
+header{
+  .navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+   .navbar-brand{
+     color: white;
+     p{
+       padding-top: 0;
+       padding-bottom: 0;
+     }
+    }
+    .navbar-toggler{
+      color: $main_color;
+      &:hover , &:active {
+        font-weight: bold;
+        color: $main_hover_color;
+      }
+    }
+    .nav-link{
+      color: $main_color;
+      font-weight: bold;
+      &:hover{
+        color: $main_hover_color;
+        &:after{
+          content: " ";
+          background: #ffad33;
+          width: 35px;
+          height: 3px;
+          position: absolute;
+          display: block;
+          animation: width_animation .3s ease;
+        }
+      }
+    }
+    .link_active{
+      color: $main_hover_color;
+      &:after{
+        content: " ";
+        background: #ffad33;
+        width: 35px;
+        height: 3px;
+        position: absolute;
+        display: block;
+      }
+    }
+  }
+  .model_body{
+    padding: 10%;
+    h2{
+      color: $main_hover_color;
+    }
+    input , textarea , select{
+      border: .5px solid $main_color;
+      outline: none;
+      &:focus{
+        background-color: #161616;
+        color: $main_color;
+        border-color: $main_hover_color;
+        outline: none;
+        transition: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
